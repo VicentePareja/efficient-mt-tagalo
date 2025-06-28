@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  mt:
+    build: .
+    image: efficient-mt:latest
+    # Descomenta las 2 líneas siguientes si tu host usa GPU con runtime NVIDIA
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices: [{driver: nvidia, count: all, capabilities: [gpu]}]
+    volumes:
+      - ./:/app            # Código live-reload
+    working_dir: /app
+    entrypoint: ["bash"]   # Sesión interactiva por defecto
