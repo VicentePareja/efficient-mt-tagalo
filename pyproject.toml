@@ -1,0 +1,26 @@
+[project]
+name = "efficient-mt-tagalog"
+version = "0.1.0"
+description = "Efficient LoRA fine-tuning of NLLB-200 to Tagalog"
+authors = [
+    {name = "Vicente Pareja",email = "vicente@omicspath.ai"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "24.4.2"
+ruff = "0.4.5"
+isort = "5.13.2"
+pre-commit = "3.6.2"
+pytest = "8.1.1"
+nbstripout = "0.6.1"
+
