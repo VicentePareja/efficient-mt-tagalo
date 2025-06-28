@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Wrapper de evaluación (place-holder)
-python -m src.evaluation.eval_metrics "$@"
+# Genera traducciones en batch y calcula BLEU + chrF.
+set -e
+poetry run python -m src.evaluation.eval_metrics "$@"
