@@ -1,0 +1,9 @@
+# ───────────────────────────── Project paths ─────────────────────────────────
+data_dir: data
+raw_dir: ${data_dir}/raw
+processed_dir: ${data_dir}/processed
+tokenizers_dir: ${data_dir}/tokenizers
+
+experiments_dir: experiments
+checkpoints_dir: ${experiments_dir}/checkpoints
+logs_dir: ${experiments_dir}/logs
