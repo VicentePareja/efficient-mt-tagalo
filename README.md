@@ -3,8 +3,6 @@
 Fine‑tuning eficiente de **NLLB‑200** al tagalo mediante **LoRA**
 Proyecto grupal – UC Chile 2025
 
-[![ci](https://github.com/VicentePareja/efficient-mt-tagalo/actions/workflows/ci.yml/badge.svg)](https://github.com/VicentePareja/efficient-mt-tagalo/actions/workflows/ci.yml)
-
 ---
 
 ## Objetivo
