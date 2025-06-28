@@ -83,7 +83,7 @@ docker run --gpus all -it --rm -v $(pwd):/workspace efficient-mt-tl bash
 
 ## Licencia
 
-MIT License © 2025 OmicsPath, Inc.
+MIT License © 2025
 
 ---
 
